@@ -159,6 +159,27 @@ h1{
   font-size: 15px;
 }
 
+#top-box-shape{
+  height: 200px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.three-boxes-shape{
+  height: 200px;
+  width: calc((100% / 3) - 50px);
+  margin: 50px 0;
+  float: left;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+#middle-box{
+  margin: 50px 75px;
+}
+
 #com-partners{
   background-color: #00cc99;
   /* debug */
