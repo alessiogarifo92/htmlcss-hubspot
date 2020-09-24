@@ -165,10 +165,46 @@ h1{
 }
 
 #top-box-shape{
-  height: 200px;
+  min-height: 200px;
   background-color: white;
   border: 1px solid lightgrey;
   border-radius: 5px;
+}
+
+#top-box-shape > div{
+  float: left;
+}
+
+#colonna-sinistra{
+  margin: 20px 0 20px 100px;
+}
+
+#colonna-sinistra > img{
+  width: 110px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+
+#colonna-sinistra > a{
+  display: block;
+}
+
+#colonna-destra{
+  margin: 20px 40px 20px 150px;
+  text-align: left;
+}
+
+#colonna-destra > p{
+  width: 600px;
+  margin-top: 30px;
+}
+
+#colonna-destra > h3{
+  margin-bottom: 30px;
+}
+
+#colonna-destra div > span{
+  margin-right: 30px;
 }
 
 .three-boxes-shape{
