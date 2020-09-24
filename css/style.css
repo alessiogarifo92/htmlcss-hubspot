@@ -134,16 +134,29 @@ h1{
   /* fine debug */
 }
 
-#features:first-child{
+#features {
   position: relative;
 }
 
 #cubo{
   width: 230px;
   height: 220px;
+  position: absolute;
+  top: 150px;
   left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate( -50% , -50%);
+}
+
+#features h1 {
+  text-align: center;
+  padding-top: 300px;
+}
+
+#features p{
+  text-align: center;
+  margin: 50px auto;
+  width: 700px;
+  font-size: 15px;
 }
 
 #com-partners{
