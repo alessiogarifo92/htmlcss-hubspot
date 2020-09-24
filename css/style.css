@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 a{
   color: black;
   text-decoration: none;
@@ -129,13 +135,10 @@ h1{
 
 #features{
   background-color: lightgrey;
-  /* debug */
-  height: 500px;
-  /* fine debug */
-}
-
-#features {
   position: relative;
+  /* debug */
+  /* height: 500px; */
+  /* fine debug */
 }
 
 #cubo{
@@ -147,16 +150,18 @@ h1{
   transform: translate( -50% , -50%);
 }
 
-#features h1 {
+#features > h2 {
   text-align: center;
   padding-top: 300px;
+  font-size: 35px;
 }
 
-#features p{
+#features > p{
   text-align: center;
   margin: 50px auto;
   width: 700px;
   font-size: 15px;
+  line-height: 25px;
 }
 
 #top-box-shape{
@@ -167,13 +172,48 @@ h1{
 }
 
 .three-boxes-shape{
-  height: 200px;
+  /* height: 200px; */
   width: calc((100% / 3) - 50px);
-  margin: 50px 0;
+  margin: 50px 0 0;
   float: left;
   background-color: white;
   border: 1px solid lightgrey;
   border-radius: 5px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.three-boxes-shape > img{
+  width: 110px;
+  height: auto;
+}
+
+.three-boxes-shape > h2{
+  margin: 20px;
+}
+.three-boxes-shape > p{
+  width: auto;
+  margin: auto 30px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+
+.three-boxes-shape > h3{
+  margin: 30px auto;
+}
+
+.bottom-box{
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  line-height: 0px;
+}
+
+.learn-more{
+  background-color: orange;
+  color: black;
+  border-radius: 5px;
+  padding: 7px;
 }
 
 #middle-box{
