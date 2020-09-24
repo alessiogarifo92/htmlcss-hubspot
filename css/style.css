@@ -176,7 +176,7 @@ h1{
 }
 
 #colonna-sinistra{
-  margin: 20px 0 20px 100px;
+  margin: 20px 0 40px 100px;
 }
 
 #colonna-sinistra > img{
@@ -259,9 +259,52 @@ h1{
 
 #com-partners{
   background-color: #00cc99;
+  text-align: center;
+  padding: 30px 40px;
+  color: white;
   /* debug */
-  height: 500px;
+  min-height: 300px;
   /* fine debug */
+}
+
+#sottotitolo{
+  width: 82%;
+  font-size: 12px;
+  margin: 30px auto;
+}
+
+#tabella{
+  margin: 40px 85px;
+}
+
+#tabella > div{
+  float: left;
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 200px;
+}
+
+.top-tabella{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#last-top{
+  border-bottom: 1px solid white;
+}
+
+.bottom-tabella{
+  border-right: 1px solid white;
+}
+
+.scritte-tabella{
+  margin: 40px;
+  line-height: 40px;
+}
+
+.scritte-tabella > p{
+  width: 127px;
+  font-size: 13px;
 }
 
 #growing{
