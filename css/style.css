@@ -164,6 +164,10 @@ h1{
   line-height: 25px;
 }
 
+#features div > i{
+  color: orange;
+}
+
 #top-box-shape{
   min-height: 200px;
   background-color: white;
@@ -316,8 +320,45 @@ h1{
 
 footer{
   /* debug */
-  background-color: red;
+  background-color: #484875;
+  color: white;
+  margin-bottom: 40px;
+  padding-left: 30px;
   /* width: 80%; */
   min-height: 200px;
   /* fine debug */
+}
+
+.footer-tools{
+  float: left;
+  width: calc((100% / 4) - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  /* debug */
+  /* border: 1px solid white; */
+  /* height: 200px; */
+  /* fine debug */
+}
+
+.footer-tools > a{
+  color: grey;
+  display: block;
+  line-height: 35px;
+}
+
+#footer-button{
+  color: #484875;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 1px;
+  width: 170px;
+  text-align: center;
+}
+
+#social-icons > a{
+  display: inline-block;
+  color: grey;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 15px;
 }
