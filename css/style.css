@@ -324,9 +324,15 @@ footer{
   color: white;
   margin-bottom: 40px;
   padding-left: 30px;
+  padding-top: 30px;
   /* width: 80%; */
   min-height: 200px;
   /* fine debug */
+}
+
+#top-footer{
+  margin: auto 30px 30px auto;
+  border-bottom: 1px solid grey;
 }
 
 .footer-tools{
@@ -361,4 +367,38 @@ footer{
   margin-top: 20px;
   margin-right: 20px;
   font-size: 15px;
+}
+
+#footer-languages{
+  text-align: center;
+}
+
+#footer-languages > a{
+  margin-right: 20px;
+  color: grey;
+}
+
+#bottom-left{
+  float: left;
+  /* border: 1px solid white;
+  width: 200px;
+  height: 200px; */
+}
+
+#bottom-left > img{
+  background-color: grey;
+}
+
+#bottom-right{
+  float: right;
+  margin-right: 30px;
+  /* border: 1px solid white;
+  width: 200px;
+  height: 200px; */
+}
+
+#bottom-right > a{
+  color: grey;
+  font-size: 10px;
+  margin-right: 20px;
 }
