@@ -185,7 +185,8 @@ h1{
 
 .three-boxes-shape > img{
   width: 110px;
-  height: auto;
+  height: 110px;
+  margin-top: 50px;
 }
 
 .three-boxes-shape > h2{
