@@ -92,7 +92,7 @@ float: right;
   margin-top: 10px;
 }
 
-#menu-right a{
+#menu-right > a{
   margin: 5px;
 }
 
@@ -255,6 +255,7 @@ h1{
   color: black;
   border-radius: 5px;
   padding: 7px;
+  text-align: center;
 }
 
 #middle-box{
@@ -317,6 +318,42 @@ h1{
   height: 500px;
   /* fine debug */
 }
+
+#grow-left-side , #grow-right-side{
+  float: left;
+  /* debug */
+  width: 50%;
+  min-height: 300px;
+  border: 1px solid black;
+  /* fine debug */
+}
+
+#left-top {
+  width: 150px;
+  height: auto;
+  text-align: center;
+  margin-left: 175px;
+  margin-top: 50px;
+}
+
+#left-top > p{
+  width: 150px;
+  margin: 30px 0 60px;
+}
+
+#left-bottom{
+  margin-left: 75px;
+  width: 350px;
+}
+
+#left-bottom > p{
+  margin: 30px 0;
+}
+
+#left-bottom > p:last-child{
+  font-size: 10px;
+}
+
 
 footer{
   /* debug */
